@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">wifilist</string>
+    <string name="title_activity_main_list">MainList</string>
+    <string name="scan">Scan wifi</string>
+</resources>

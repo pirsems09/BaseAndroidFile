@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_shape_into_gradient_2"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/splash2_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash2_imageView"
+        android:gravity="center_horizontal"
+        android:textSize="31dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/splash2_textView_hosgeldin"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_marginTop="230dp"
+        android:text="HOŞ GELDİN!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/splash2_textView_hosgeldin_aciklama"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_marginTop="320dp"
+        android:text="Anket Doldur,\nHediyeler Kazan!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/splash2_button"
+        android:text="ŞİMDİ BAŞLA!"
+        android:textSize="18dp"
+        android:textColor="#FF4E21"
+        android:background="@drawable/_splash2_button_background"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+</RelativeLayout>

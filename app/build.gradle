@@ -32,12 +32,13 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-
-
     //Important compile
-    //implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.google.dagger:dagger:2.16'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.16'
+
+    //implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.onesignal:OneSignal:3.+@aar'
     //implementation 'com.mikhaellopez:circularimageview:3.0.2'
 

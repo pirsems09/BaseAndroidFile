@@ -1,12 +1,15 @@
 package com.arif.wifilist.Util;
 
+import android.content.Context;
+
 import com.onesignal.OneSignal;
 
 public class PushNotification {
 
-    public void run(){
+    public void run(Context context){
 
-        OneSignal.startInit(this)
+
+        OneSignal.startInit(context)
                 .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
                 .unsubscribeWhenNotificationsAreDisabled(true)
                 .init();

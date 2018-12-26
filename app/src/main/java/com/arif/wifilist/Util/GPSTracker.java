@@ -1,6 +1,7 @@
 package com.arif.wifilist.Util;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Service;
@@ -19,6 +20,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
+@SuppressLint("Registered")
 public class GPSTracker extends Service {
 
 

@@ -90,4 +90,11 @@ public class MainList extends AppCompatActivity {
             }
         }
     };
+
+    @Override
+    protected void onStop()
+    {
+        unregisterReceiver(wifiReceiver);
+        super.onStop();
+    }
 }

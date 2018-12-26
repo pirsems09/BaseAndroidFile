@@ -11,6 +11,8 @@ import java.util.List;
 
 public class GetData {
 
+    private static final String TAG = "GetData";
+
     //1.function
     private String value="";
     //2.function
